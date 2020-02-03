@@ -1,0 +1,30 @@
+{
+  "name": "powervolunteers",
+  "version": "0.0.1",
+  "description": "Power Volunteers project \u001b[1;5D\u001b[1;5D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Dportal ",
+  "main": "index.html",
+  "dependencies": {
+    "watch": "^1.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramimounla/powervolunteers.git"
+  },
+  "keywords": [
+    "Power",
+    "Platform",
+    "Volunteers",
+    "Dynamics",
+    "365"
+  ],
+  "author": "Rami Mounla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramimounla/powervolunteers/issues"
+  },
+  "homepage": "https://github.com/ramimounla/powervolunteers#readme"
+}
