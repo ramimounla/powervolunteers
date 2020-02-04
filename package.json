@@ -3,18 +3,21 @@
   "version": "0.0.1",
   "description": "Power Volunteers project \u001b[1;5D\u001b[1;5D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Dportal ",
   "main": "index.html",
-  "dependencies": {
-    "watch": "^1.0.2"
-  },
+  "dependencies": {},
   "devDependencies": {
     "concurrently": "^5.1.0",
     "http-server": "^0.12.1",
-    "nodemon": "^2.0.2"
+    "live-reload": "^1.1.0",
+    "nodemon": "^2.0.2",
+    "watch": "^1.0.2"
   },
   "scripts": {
     "start": "npm run open",
     "open": "concurrently \"http-server -a localhost -p 1234\" \"start http://localhost:1234/index.html\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:server": "nodemon --ignore clinet --ignore public index.html",
+    "watch:files": "watch 'npm run test' .",
+    "watch:browser": "live-reload --port 1234 ."
   },
   "repository": {
     "type": "git",
